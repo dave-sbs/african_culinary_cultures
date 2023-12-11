@@ -10,8 +10,8 @@ var simplemaps_usmap_mapdata = {
 	
 		//State defaults
     state_description: 'State Description',
-		state_color: '#88A4BC',
-		state_hover_color: '#3B729F',
+		state_color: '#D7D3D3',
+		state_hover_color: '#73cba1',
     state_url: '',
 		border_size: 1.5,		
 		all_states_inactive: 'no',
@@ -36,7 +36,7 @@ var simplemaps_usmap_mapdata = {
 		label_color: '#d5ddec',	
 		label_hover_color: '#d5ddec',		
 		label_size: 22,
-		label_font: 'Arial',
+		label_font: 'IBMPlexSans-Regular',
 		hide_labels: 'no',
 		hide_eastern_labels: 'no',
 		
@@ -57,7 +57,7 @@ var simplemaps_usmap_mapdata = {
 		popup_opacity: .9,
 		popup_shadow: 1,
 		popup_corners: 5,
-		popup_font: '12px/1.5 Verdana, Arial, Helvetica, sans-serif',
+		popup_font: '12px/1.5 IBMPlexSans-Regular',
 		popup_nocss: 'no', //use your own css	
 		
 		//Advanced settings
