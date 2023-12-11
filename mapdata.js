@@ -78,14 +78,16 @@ var simplemaps_usmap_mapdata = {
 			description: 'default',
 			color: 'default',
 			hover_color: 'default',
-			url: 'default'
-		},
+			url: 'default',
+			hide: 'yes'
+			},
 		"AK": {
 			name: 'Alaska',
 			description: 'default',
 			color: 'default',
 			hover_color: 'default',
-			url: 'default'
+			url: 'default',
+			 hide: 'yes'
 			},
 		"FL": {
 			name: 'Florida',
@@ -474,18 +476,6 @@ var simplemaps_usmap_mapdata = {
 		},
 
     locations:{
-      0: {
-        name: 'New York City',					
-        lat: 40.7143528,
-        lng: -74.0059731
-      },
-
-      1: {
-        name: 'Anchorage',
-        lat: 61.2180556,
-        lng: -149.9002778, 
-        color: 'default'
-      }
     },			
 	
   labels: {
