@@ -34,7 +34,7 @@ var simplemaps_usmap_mapdata={
     //Label defaults
     label_color: "#d5ddec",
     label_hover_color: "#d5ddec",
-    label_size: 22,
+    label_size: 18.5,
     label_font: "Georgia",
     hide_labels: "no",
     hide_eastern_labels: "no",
