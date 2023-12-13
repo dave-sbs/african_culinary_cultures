@@ -51,10 +51,10 @@ var simplemaps_usmap_mapdata={
     
     //Popup settings
     popup_color: "#D4D9D6",
-    popup_opacity: 0.7,
+    popup_opacity: 0.9,
     popup_shadow: 0.5,
     popup_corners: 5,
-    popup_font: "15px/1.5 docs-Montserrat",
+    popup_font: "15px/1.5 Montserrat",
     popup_nocss: "no",
     
     //Advanced settings
