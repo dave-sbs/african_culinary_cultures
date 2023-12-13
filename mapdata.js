@@ -54,7 +54,7 @@ var simplemaps_usmap_mapdata={
     popup_opacity: 0.7,
     popup_shadow: 0.5,
     popup_corners: 5,
-    popup_font: "15px/1.5 Georgia",
+    popup_font: "15px/1.5 docs-Montserrat",
     popup_nocss: "no",
     
     //Advanced settings
