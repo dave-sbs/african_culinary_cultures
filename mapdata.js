@@ -8,7 +8,7 @@ var simplemaps_usmap_mapdata={
     popups: "detect",
     
     //State defaults
-    state_description: "State Description",
+    state_description: "",
     state_color: "#222725",
     state_hover_color: "#F5731C",
     state_url: "",
@@ -35,7 +35,7 @@ var simplemaps_usmap_mapdata={
     label_color: "#d5ddec",
     label_hover_color: "#d5ddec",
     label_size: 22,
-    label_font: "Arial",
+    label_font: "Georgia",
     hide_labels: "no",
     hide_eastern_labels: "no",
     manual_zoom: "no",
