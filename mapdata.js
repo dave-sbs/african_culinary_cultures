@@ -12,7 +12,7 @@ var simplemaps_usmap_mapdata={
     state_color: "#222725",
     state_hover_color: "#F5731C",
     state_url: "",
-    border_size: 1.5,
+    border_size: 1,
     all_states_inactive: "no",
     all_states_zoomable: "yes",
     
@@ -35,7 +35,7 @@ var simplemaps_usmap_mapdata={
     label_color: "#d5ddec",
     label_hover_color: "#d5ddec",
     label_size: 22,
-    label_font: "Times New Roman",
+    label_font: "Arial",
     hide_labels: "no",
     hide_eastern_labels: "no",
     manual_zoom: "no",
@@ -50,11 +50,11 @@ var simplemaps_usmap_mapdata={
     zoom_time: 0.5,
     
     //Popup settings
-    popup_color: "white",
+    popup_color: "orange",
     popup_opacity: 0.9,
     popup_shadow: 1,
     popup_corners: 5,
-    popup_font: "12px/1.5 Times New Roman",
+    popup_font: "12px/1.5 Verdana, Arial, Helvetica, sans-serif",
     popup_nocss: "no",
     
     //Advanced settings
@@ -67,7 +67,9 @@ var simplemaps_usmap_mapdata={
     link_text: "View Website",
     state_image_url: "",
     state_image_position: "",
-    location_image_url: ""
+    location_image_url: "",
+    border_hover_color: "",
+    border_hover_size: ""
   },
   state_specific: {
     HI: {
@@ -79,7 +81,9 @@ var simplemaps_usmap_mapdata={
       hide: "yes"
     },
     FL: {
-      name: "Florida"
+      name: "Florida",
+      hide: "no",
+      description: "- Key lime pie | -"
     },
     NH: {
       name: "New Hampshire"
@@ -109,7 +113,8 @@ var simplemaps_usmap_mapdata={
       name: "Maryland"
     },
     VA: {
-      name: "Virginia"
+      name: "Virginia",
+      description: "- Salt-cured ham | -"
     },
     WV: {
       name: "West Virginia"
@@ -130,7 +135,8 @@ var simplemaps_usmap_mapdata={
       name: "Wisconsin"
     },
     NC: {
-      name: "North Carolina"
+      name: "North Carolina",
+      description: "- Chess pie | - Salt-cured ham | - Barbeque Brisket | - Pulled Pork"
     },
     DC: {
       name: "District of Columbia"
@@ -139,28 +145,35 @@ var simplemaps_usmap_mapdata={
       name: "Massachusetts"
     },
     TN: {
-      name: "Tennessee"
+      name: "Tennessee",
+      description: "- Banana pudding | - Biscuits | - Salt-cured ham | - Nashville hot chicken"
     },
     AR: {
-      name: "Arkansas"
+      name: "Arkansas",
+      description: "- Fried catfish"
     },
     MO: {
-      name: "Missouri"
+      name: "Missouri",
+      description: "- Barbeque Brisket"
     },
     GA: {
       name: "Georgia"
     },
     SC: {
-      name: "South Carolina"
+      name: "South Carolina",
+      description: "- Shrimp and grits | - Okra gumbo | - Red beans and rice | - Pulled Pork"
     },
     KY: {
-      name: "Kentucky"
+      name: "Kentucky",
+      description: "`"
     },
     AL: {
-      name: "Alabama"
+      name: "Alabama",
+      description: "- Fried green tomatoes"
     },
     LA: {
-      name: "Louisiana"
+      name: "Louisiana",
+      description: "- Shrimp po'boy | - Crawfish etoufee | - Bignets | - Jambalaya"
     },
     MS: {
       name: "Mississippi"
@@ -175,7 +188,8 @@ var simplemaps_usmap_mapdata={
       name: "Oklahoma"
     },
     TX: {
-      name: "Texas"
+      name: "Texas",
+      description: "- Frito pie | - Chicken fried steak | - Barbeque Brisket"
     },
     NM: {
       name: "New Mexico"
