@@ -165,7 +165,7 @@ var simplemaps_usmap_mapdata={
     },
     KY: {
       name: "Kentucky",
-      description: "`"
+      description: ""
     },
     AL: {
       name: "Alabama",
