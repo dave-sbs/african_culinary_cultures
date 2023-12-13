@@ -54,7 +54,7 @@ var simplemaps_usmap_mapdata={
     popup_opacity: 0.7,
     popup_shadow: 0.5,
     popup_corners: 5,
-    popup_font: "12px/1.5 Georgia",
+    popup_font: "15px/1.5 Georgia",
     popup_nocss: "no",
     
     //Advanced settings
@@ -83,7 +83,7 @@ var simplemaps_usmap_mapdata={
     FL: {
       name: "Florida",
       hide: "no",
-      description: "- Key lime pie | -"
+      description: "- Key lime pie"
     },
     NH: {
       name: "New Hampshire"
@@ -114,7 +114,7 @@ var simplemaps_usmap_mapdata={
     },
     VA: {
       name: "Virginia",
-      description: "- Salt-cured ham | -"
+      description: "- Salt-cured ham"
     },
     WV: {
       name: "West Virginia"
