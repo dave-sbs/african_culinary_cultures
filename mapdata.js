@@ -50,11 +50,11 @@ var simplemaps_usmap_mapdata={
     zoom_time: 0.5,
     
     //Popup settings
-    popup_color: "orange",
-    popup_opacity: 0.9,
-    popup_shadow: 1,
+    popup_color: "#D4D9D6",
+    popup_opacity: 0.7,
+    popup_shadow: 0.5,
     popup_corners: 5,
-    popup_font: "12px/1.5 Verdana, Arial, Helvetica, sans-serif",
+    popup_font: "12px/1.5 Georgia",
     popup_nocss: "no",
     
     //Advanced settings
