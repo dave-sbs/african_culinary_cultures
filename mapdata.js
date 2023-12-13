@@ -35,7 +35,7 @@ var simplemaps_usmap_mapdata={
     label_color: "#d5ddec",
     label_hover_color: "#d5ddec",
     label_size: 18.5,
-    label_font: "Montserrat",
+    label_font: "Palatino",
     hide_labels: "no",
     hide_eastern_labels: "no",
     manual_zoom: "no",
@@ -54,7 +54,7 @@ var simplemaps_usmap_mapdata={
     popup_opacity: 0.9,
     popup_shadow: 0.5,
     popup_corners: 5,
-    popup_font: "15px/1.5 Montserrat",
+    popup_font: "15px/1.5 Verdana",
     popup_nocss: "no",
     
     //Advanced settings
