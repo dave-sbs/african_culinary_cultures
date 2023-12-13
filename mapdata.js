@@ -35,7 +35,7 @@ var simplemaps_usmap_mapdata={
     label_color: "#d5ddec",
     label_hover_color: "#d5ddec",
     label_size: 18.5,
-    label_font: "Georgia",
+    label_font: "Montserrat",
     hide_labels: "no",
     hide_eastern_labels: "no",
     manual_zoom: "no",
